@@ -1,3 +1,5 @@
+
+
 body {
     font-family: "Yantramanav", sans-serif;
 }
@@ -7,6 +9,22 @@ body {
     color: white;
 }
 
-.btn-contact {
-    background-color: #29524a;
-}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  .wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+  }
+
+  .footer   {
+    height: 50px;
+    background-color: #06070e;
+    color: white;
+    text-align: center;
+  }
+  
