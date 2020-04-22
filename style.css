@@ -1,7 +1,5 @@
-
-
 body {
-    font-family: "Yantramanav", sans-serif;
+  font-family: "Yantramanav", sans-serif;
 }
 
 .header {
@@ -9,22 +7,30 @@ body {
     color: white;
 }
 
-
-
 html, body {
     height: 100%;
     margin: 0;
-  }
+}
 
-  .wrapper {
+.wrapper {
     min-height: 100%;
     margin-bottom: -50px;
-  }
+    margin: 40px;
+}
 
-  .footer   {
+.push {
+  height: 50px;
+}
+
+.footer   {
     height: 50px;
     background-color: #06070e;
     color: white;
     text-align: center;
-  }
-  
+    padding-top: 16px;
+}
+
+.cardStyle {
+  float: left;
+  margin: 20px;
+}
