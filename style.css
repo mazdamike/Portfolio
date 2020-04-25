@@ -2,6 +2,12 @@ body {
   font-family: "Yantramanav", sans-serif;
 }
 
+#lightBox {
+  font-family: "Yantramanav", sans-serif;
+  font-size: 125%;
+  margin-left: 20px;
+}
+
 .header {
     background-color: #06070e;
     color: white;

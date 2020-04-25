@@ -26,14 +26,50 @@
 
 <body>
 
+    <!-- Header -->
     <header>
         <div class="jumbotron header">
             <h1 class="display-4">Michael W. Powell</h1>
             <p class="lead">Portfolio</p>
             <hr class="my-4">
-            <a class="btn btn-secondary btn-lg" href="#" role="button">Contact</a>
+            <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#exampleModal">
+                Contact
+            </button>
         </div>
     </header>
+    <!-- End header -->
+
+    <!-- Contact modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Contact</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="lightBox">
+                    <p><b>Email: </b><a href="mailto:mwpowell44@gmail.com">mwpowell44@gmail.com</a><br>
+                        <b>Phone: </b>404-543-7338<br></P>
+                    <p><b>LinkedIn: </b><a href="https://linkedin.com/in/mwpowell44"
+                            target="_blank">linkedin.com/in/mwpowell44</a><br>
+
+                        <b>GitHub: </b><a href="https://github.com/mazdamike"
+                            target="_blank">github.com/mazdamike</a><br>
+                        <b>Resume: </b><i class="far fa-file-pdf">&nbsp;</i><a
+                            href="https://drive.google.com/open?id=1z2TxlmiXxyHyUpig3xF9NP419_WqOtS6"
+                            target="_blank">MichaelPowell</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End contact modal -->
+
 
     <div class="wrapper">
         <div class="card cardStyle" style="width: 18rem;">
@@ -92,11 +128,12 @@
 
         <div class="push"></div>
     </div>
-    
+
+    <!-- Footer -->
     <footer class="footer">
         <p>&copy; 2020</p>
     </footer>
-
+    <!-- End footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
