@@ -1,5 +1,6 @@
 body {
   font-family: "Yantramanav", sans-serif;
+  background-image: url(images/gravel.png);
 }
 
 #lightBox {
@@ -20,21 +21,31 @@ html, body {
 
 .wrapper {
     min-height: 100%;
-    margin-bottom: -50px;
+    /* margin-bottom: -50px; */
     margin: 40px;
 }
 
-.push {
+/* .push {
   height: 50px;
-}
+} */
 
-.footer   {
+/* .footer   {
     height: 50px;
     background-color: #06070e;
     color: white;
     text-align: center;
-    padding-top: 16px;
-}
+    padding-top: 16px; */
+/* } */
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #06070e;
+    color: white;
+    text-align: center;
+ }
 
 .cardStyle {
   float: left;
